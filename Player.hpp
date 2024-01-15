@@ -266,13 +266,14 @@ struct Player {
         }
         
         //item Glow
-        for (int highlightId = 30; highlightId < 40; highlightId++) {
+        for (int highlightId = 34; highlightId < 39; highlightId++) {
         const GlowMode newGlowMode = { 137,0,0,127 };
         const GlowMode oldGlowMode = mem::Read<GlowMode>(highlightSettingsPtr + (HIGHLIGHT_TYPE_SIZE * highlightId) + 0);
         if (newGlowMode != oldGlowMode)
             mem::Write<GlowMode>(highlightSettingsPtr + (HIGHLIGHT_TYPE_SIZE * highlightId) + 0, newGlowMode);
         }
     }
+
 
     float calcDesiredPitch() {
         if (local) return 0;
@@ -367,4 +368,3 @@ struct Player {
         return (1000 - (fabs(aimbotDesiredAnglesIncrement.x) + fabs(aimbotDesiredAnglesIncrement.y)));
     }
 };
-
