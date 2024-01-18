@@ -4,7 +4,7 @@
     #pragma once
     //core
     constexpr long OFF_REGION = 0x140000000;                      //[Static]->Region
-    constexpr long OFF_LEVEL = 0x16d6ac0;                         //[Miscellaneous]->LevelName o
+    constexpr long OFF_LEVEL = 0x16d6ab0;                         //[Miscellaneous]->LevelName o
     constexpr long OFF_LOCAL_PLAYER = 0x21615d8;                  //[Miscellaneous]->LocalPlayer o
     constexpr long OFF_ENTITY_LIST = 0x1db2ed8;                   //[Miscellaneous]->cl_entitylist o
     //buttons
@@ -121,5 +121,5 @@
     constexpr long OFF_GLOW_THROUGH_WALL = 0x28c;                 //[DT_HighlightSettings].?
     constexpr long OFF_GLOW_FIX = 0x268;
     constexpr long OFF_GLOW_HIGHLIGHT_ID = 0x28C;                 //[DT_HighlightSettings].m_highlightServerActiveStates
-    constexpr long OFF_GLOW_HIGHLIGHTS = 0xB7A6050;
+    constexpr long OFF_GLOW_HIGHLIGHTS = 0xB93E050;
 
