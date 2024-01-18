@@ -38,7 +38,7 @@
     constexpr long OFF_CAMERAORIGIN = 0x1e90;                     //[Miscellaneous]->CPlayer!camera_origin o
     constexpr long OFF_MODELNAME = 0x0030;                        //m_ModelName o
      
-    constexpr long OFF_NAMELIST = 0xc451fb0;                      //[Miscellaneous]->NameList o
+    constexpr long OFF_NAMELIST = 0xc5ea050;                      //[Miscellaneous]->NameList o
     constexpr long OFF_YAW = 0x21fc - 0x8;                        //m_currentFramePlayer.m_ammoPoolCount - 0x8 o
     constexpr long OFF_NAMEINDEX = 0x38;                          //nameIndex
     //weapon
