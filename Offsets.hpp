@@ -67,7 +67,7 @@
     #pragma once
     //core
     constexpr long OFF_REGION = 0x140000000;                      //[Static]->Region
-    constexpr long OFF_LEVEL = 0x16d6ac0;                         //[Miscellaneous]->LevelName o
+    constexpr long OFF_LEVEL = 0x16d6ab0;                         //[Miscellaneous]->LevelName o
     constexpr long OFF_LOCAL_PLAYER = 0x21615d8;                  //[Miscellaneous]->LocalPlayer o
     constexpr long OFF_ENTITY_LIST = 0x1db2ed8;                   //[Miscellaneous]->cl_entitylist o
     //buttons
